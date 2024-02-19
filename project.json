@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name":"Ignite Student Association website",
+    "image": "https://res.cloudinary.com/dy7zpv1ij/image/upload/v1708333906/ignite617_jnwgmd.png",
+    "text": "Cartify eCommerce website is built using Nuxt 3 and API. There are a wide variety of goods available.",
+    "link": "https://cartify-tanmayie.netlify.app"
+  },
+    {
+      "id": 1,
+      "name":"E-commerce website",
+      "image": "https://res.cloudinary.com/dy7zpv1ij/image/upload/v1708333907/cartify617_vus1gd.png",
+      "text": "Cartify eCommerce website is built using Nuxt 3 and API. There are a wide variety of goods available.",
+      "link": "https://cartify-tanmayie.netlify.app"
+    },
+    {
+        "id": 2,
+        "name":"Qi Ventures",
+        "image": "https://res.cloudinary.com/dy7zpv1ij/image/upload/v1708333907/ventures617_g77fh8.png",
+        "text": "Qi Ventures is a page developed with the accompanying design. It is built using ReactJs",
+        "link": "/"
+      },
+    {
+        "id": 3,
+        "name":"Jane Portfolio website",
+        "image": "https://res.cloudinary.com/dy7zpv1ij/image/upload/v1708333905/jane617_zk1onb.png",
+        "text": "Jane website is design of Jane Joe's portfolio available on tailwind awesome. It is build using Tailwind css and  Js.",
+        "link": "https://jane-website.netlify.app"
+      },
+    {
+        "id": 4,
+        "name":"Valorant Card Page",
+        "image": "https://res.cloudinary.com/dy7zpv1ij/image/upload/v1708333885/valorant617_gdjizv.png",
+        "text": "This Page contains valorant card which specifies features of the charachter. It is made using Api in Js. ",
+        "link": "https://valorant-cards.netlify.app"
+      }
+      
+  ]

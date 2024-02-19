@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rampart+One&family=Ribeye+Marrow&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.kalakar {
+    background-image: linear-gradient(90deg, white, white);
+    background-clip: text;
+    -webkit-text-stroke-width: 5px;
+    -webkit-text-stroke-color: transparent;
+    color: #0C3A2F ;
+    font-size: 70px;
+    letter-spacing: 2px;
+    top: 86px;
+    right: 42%;
+    bottom: 0;
+    white-space: nowrap;
+    position: absolute;
+    overflow: hidden;
+    transform: rotate(90deg);
+    /* animation: typing 4s steps(40) infinite;
+    animation-delay: 0.5s;
+     */
+}
+
+.code {
+    background-image: linear-gradient(90deg, #BB8A52 , #BB8A52);
+    background-clip: text;
+    -webkit-text-stroke-width: 7px;
+    -webkit-text-stroke-color: transparent;
+    color: #0C3A2F ;
+    font-size: 82px;
+    /* letter-spacing: 2px; */
+    height: 200px;
+    /* overflow: hidden; */
+    transform: rotate(-90deg);
+    
+}
+.kalakari {
+    background-image: linear-gradient(90deg, #BB8A52 , #BB8A52);
+    background-clip: text;
+    -webkit-text-stroke-width: 7px;
+    -webkit-text-stroke-color: transparent;
+    color: #0C3A2F ;
+    font-size: 82px;
+    /* letter-spacing: 2px; */
+    height: 200px;
+    /* overflow: hidden; */
+    transform: rotate(90deg);
+    
+}
+.skill {
+    background-image: linear-gradient(90deg, #0C3A2F ,#0C3A2F );
+    background-clip: text;
+    -webkit-text-stroke-width: 7px;
+    -webkit-text-stroke-color: transparent;
+    color: #f0fff1;
+    font-size: 82px;
+    letter-spacing: 2px;
+    height: 200px;
+    /* overflow: hidden; */
+    
+}
+.skill1 {
+    background-image: linear-gradient(90deg, #f0fff1,#f0fff1);
+    background-clip: text;
+    -webkit-text-stroke-width: 7px;
+    -webkit-text-stroke-color: transparent;
+    color: #0C3A2F;
+    font-size: 60px;
+    letter-spacing: 2px;
+    height: 200px;
+    /* overflow: hidden; */
+    
+}
+
+/* @keyframes typing {
+    from {
+        bottom: -100%;
+    }
+    to {
+        bottom: 0%;
+    }
+} */
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar {
+    display: none; /* Safari and Chrome */
+  }
+@layer utilities{
+    @vartients responsive{
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+    }
+ }
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #6E9575;
+    border-radius: 5px;
+}
+ 
